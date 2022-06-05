@@ -3,7 +3,7 @@ import React from "react";
 export default function List({ rate, setEthToSol, collections }) {
   return (
     <div className="	flex flex-col">
-      <table className="table-auto ">
+      <table className="table-auto overflow-x-scroll">
         <thead className="m-2">
           <tr className="m-4">
             <th>Collection</th>
