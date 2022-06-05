@@ -29,7 +29,7 @@ export default function List({ rate, setEthToSol, collections }) {
                     className="rounded-full w-16"
                     src={collection.image_url}
                   />{" "}
-                  <span>{collection.name}</span>
+                  <span className="truncate">{collection.name}</span>
                 </a>
               </td>
               <td className=" font-semibold items-center justify-center p-6">
